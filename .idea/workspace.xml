@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TribunalAdviceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TribunalAdviceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TupeAdviceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TupeAdviceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +196,7 @@
       <workItem from="1593768803293" duration="1061000" />
       <workItem from="1594132733816" duration="23733000" />
       <workItem from="1594389863722" duration="1018000" />
-      <workItem from="1595415231232" duration="5629000" />
+      <workItem from="1595415231232" duration="6895000" />
     </task>
     <servers />
   </component>
