@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+              integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+              crossorigin="anonymous">
+        <link href="{{ asset('css/navbar.css') }}" rel="stylesheet"/>
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
+        <link href="{{ asset('css/font.css') }}" rel="stylesheet"/>
+        <link href="{{ asset('css/form.css') }}" rel="stylesheet"/>
+        <link href="{{ asset('css/email.css') }}" rel="stylesheet"/>
+    {% endblock %}
+</head>
+<body>
+<header>
+    <nav class="navbar navbar2 navbar-light bg-lignt fixed-top navbar-expand-md ">
+        <a class="navbar-brand" href="{{ path('home') }}">
+            <img src="{{ asset('images/logo.png') }}" alt="Employers Advice" style="width:150px; margin-top: -8px; "/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{ path('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ path('tupe-advice') }}">Free TUPE Advice</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ path('tribunal-advice') }}">Free Tibunal Advice</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ path('about-us') }}">About us</a>
+                </li>
+
+
+            </ul>
+            <div class="nav navbar-nav navbar-right ml-auto navbar-text">
+                <a>
+                    <p>
+                        For free advice call: 08000 355 389
+                    </p>
+                </a>
+            </div>
+        </div>
+
+
+        </div>
+    </nav>
+</header>
+</body>
+
+{% block body %}{% endblock %}
+</div>
+
+
+{% block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+{% endblock %}
+<div id="footer">
+    <div class="row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6">
+            <div class="footer-text">
+                <p>
+
+                    employers-advice.org is a subsidiary of one of the UK's fastest growing employment law
+                    consultancies, EL Direct Ltd. All communication or correspondence will be handled with complete
+                    confidentiality and privacy. This website has been created to provide an overview of the services we
+                    offer. Disclaimer: ACAS (Advisory, Conciliation and Arbitration Service) are an independent
+                    non-departmental body of government and we are not affiliated with or connected in any way to ACAS.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+
+        </div>
+    </div>
+</html>
