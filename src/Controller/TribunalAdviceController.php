@@ -11,7 +11,7 @@ class TribunalAdviceController extends AbstractController
 {
 
     /**
-     * @Route("/pages/tribunal-advice",name="tribunal-advice")
+     * @Route("/tribunal-advice",name="tribunal-advice")
      */
 
     public function index()

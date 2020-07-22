@@ -11,7 +11,7 @@ class AboutUsController extends AbstractController
 {
 
     /**
-     * @Route("/pages/about-us",name="about-us")
+     * @Route("/about-us",name="about-us")
      */
 
     public function index()

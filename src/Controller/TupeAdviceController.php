@@ -11,7 +11,7 @@ class TupeAdviceController extends AbstractController
 {
 
     /**
-     * @Route("/pages/tupe-advice",name="tupe-advice")
+     * @Route("/tupe-advice",name="tupe-advice")
      */
 
     public function index()

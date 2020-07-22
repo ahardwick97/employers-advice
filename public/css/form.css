@@ -4,12 +4,12 @@
     border-radius: 10px;
     width: 97%;
     padding: 20px 50px 20px 50px;
-    top: 100px;
+    top: 80px;
     margin-top: 50px;
     position: -webkit-sticky;
     position: sticky;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    max-height: 50%;
 }
 
 textarea{
@@ -19,7 +19,7 @@ textarea{
 input[type=text] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 12px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -71,7 +71,7 @@ label {
 .btn-submit {
     background-color: #5f6062;
     color: white;
-    padding: 12px;
+    padding: 5px;
     margin: 10px 0;
     border: none;
     width: 100%;

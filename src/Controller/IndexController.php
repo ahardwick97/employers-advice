@@ -11,7 +11,7 @@ class IndexController extends AbstractController
 {
 
     /**
-     * @Route("/pages/pages/home",name="home")
+     * @Route("/pages/home",name="home")
      * @Route("/")
      */
 
